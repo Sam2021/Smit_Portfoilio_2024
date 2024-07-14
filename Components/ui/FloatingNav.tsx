@@ -30,14 +30,14 @@ export const FloatingNav = ({
     if (typeof current === "number") {
       let direction = current! - scrollYProgress.getPrevious()!;
 
-      if (scrollYProgress.get() < 0.05) {
+      if (scrollYProgress.get() < 0.03) {
         // also set true for the initial state
         setVisible(true);
       } else {
         if (direction < 0) {
           setVisible(true);
         } else {
-          setVisible(false);
+          setVisible(true);
         }
       }
     }
@@ -49,14 +49,17 @@ export const FloatingNav = ({
         initial={{
           opacity: 1,
           y: -100,
+          
         }}
         animate={{
           y: visible ? 0 : -100,
           opacity: visible ? 1 : 0,
+          
         }}
         transition={{
           duration: 0.2,
-        }}
+          delay:3
+        }} 
         className={cn(
           // change rounded-full to rounded-lg
           // remove dark:border-white/[0.2] dark:bg-black bg-white border-transparent
