@@ -31,12 +31,12 @@ const Scrollup = () => {
 
   return (
     <button
-      className={`fixed bottom-4 right-4 rounded-full p-2 outline-none transition-opacity duration-200 ${
+      className={`fixed bottom-4 right-4 rounded-full p-2 outline-none transition-opacity duration-200 border-white border-4 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       onClick={scrollToTop}
     >
-      <ChevronUp color="#BEC1DD" size={48}/>Top
+      <ChevronUp color="#BEC1DD" size={44}/>Top
     </button>
   )
 }

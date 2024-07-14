@@ -17,9 +17,7 @@ const Approach = () => {
         <Card
           title="Paper Published"
           icon={<AceternityIcon order="Publication" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Authored research papers and surveys published in various publications such as IRJET, IJISRT, and IJEAST during the years 2020, 2021, and 2022. The research addressed diverse topics including security, gesture recognition, and Artificial Intelligence/Machine Learning."
         >
           <CanvasRevealEffect
             animationSpeed={3}

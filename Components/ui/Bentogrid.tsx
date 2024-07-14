@@ -68,7 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "parikhsmit786@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -180,7 +180,7 @@ export const BentoGridItem = ({
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
+                
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
@@ -191,6 +191,7 @@ export const BentoGridItem = ({
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
               />
+
             </div>
           )}
         </div>

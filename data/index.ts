@@ -1,8 +1,8 @@
 export const navItems = [
-  { name: "Home", link: "#home" },
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact" },
+  { name: "Home", link: "/" },
+  { name: "About", link: "/about" },
+  { name: "Projects", link: "/project" },
+  { name: "Contact", link: "/contact" },
 ];
 
 export const gridItems = [
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Actively pursuing a career in cybersecurity through ongoing professional development.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -111,14 +111,14 @@ export const workExperience = [
   {
     id: 1,
     title: "Assistant System Engineer at TCS",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Contributed to comprehensive website testing efforts, creating over 500 test cases to achieve 90% coverage. Executed a variety of tests to ensure software stability, identifying and reporting over 100 defects. Leveraged bug tracking tools and collaborated effectively to facilitate resolution. Possess experience in Agile methodologies, mobile testing, and accessibility.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Student Intern at Aalborg University",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Through independent learning (6 areas: privacy, design, cloud, Market Analysis, Electronics, and Business Models.) and active resource engagement for over a month, I spearheaded an IoT mini-project for 30 students. Leveraging technical expertise, I designed, implemented, and tested the 5-device system (20% accuracy) showcasing strong execution skills.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -132,10 +132,8 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
   },
 ];
+
+
